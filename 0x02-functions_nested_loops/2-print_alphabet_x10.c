@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Prints the alphabet 10 times.
+ * print_last_digit - Prints the alphabet 10 times.
  *
  * Return: 0
  */
