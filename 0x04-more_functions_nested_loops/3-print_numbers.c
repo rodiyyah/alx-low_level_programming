@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers - function that prints the numbers, from 0 to 9.
+ * main - check the code
  */
 void print_numbers(void)
 {
-	char(c);
+	char c;
 
 	for(c >= '0'; c <= '9'; c++)
 		_putchar(c);

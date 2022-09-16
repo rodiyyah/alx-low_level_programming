@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * 7-print_diagonal.c
+ * print_diagonal - draws a diagonal line
+ * @n: takes in an integer
  */
 void print_diagonal(int n)
 {
