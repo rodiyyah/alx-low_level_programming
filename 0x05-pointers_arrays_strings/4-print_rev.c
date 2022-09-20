@@ -1,13 +1,34 @@
 #include "main.h"
 /**
- * main - check the code
+ * print_rev - prints a string in reverse.
  *
- * Return: 0
+ * @s: store the string.
  */
-int main(void)
+void print_rev(char *s)
 {
-	char *str;
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	print_rev(str);
-	return (0);
+	int i;
+
+	i = string_length(s) - 1;
+	while (i >= 0)
+	{
+		_putchar(s[i]);
+		i--;
+	}
+	_putchar('\n');
+}
+
+/**
+ * string_length - finds the length of a string.
+ * Return: length of c.
+ * @pointer: pointer.
+ */
+int string_length(char *pointer)
+{
+	int c = 0;
+
+	while (*(pointer + c) != '\0')
+	{
+		c++;
+	}
+	return (c);
 }
