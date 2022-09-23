@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _strncat - Concatenates two strings
  * @dest: The destination value
@@ -12,7 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 	int dlen = 0, j = 0;
 	while (dest[dlen])
 	{
-		dlen++
+		dlen++;
 	}
 
 	while (j < n && src[j])
