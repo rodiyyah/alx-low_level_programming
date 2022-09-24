@@ -11,9 +11,9 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int a = 0, b = 0;
 
-	while src[b]
+	while (src[b])
 	{
-		b++
+		b++;
 	}
 	while (a < n && src[a])
 	{
