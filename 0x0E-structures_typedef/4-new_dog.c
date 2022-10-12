@@ -3,6 +3,7 @@
 
 /**
  * *new_dog - creates a new dog.
+ *
  * @name: dog name.
  * @age: dog age.
  * @owner: dog owner.
